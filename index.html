@@ -1,306 +1,61 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#070b14">
-  <meta name="description" content="Program Hub — Windows Optimizer Ultra, Win Cleaner та PC Service Manager.">
-  <title>Program Hub 4.0</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070b14">
+
+    <meta
+        name="description"
+        content="Program Hub — Windows Optimizer Ultra, Win Cleaner та PC Service Manager."
+    >
+
+    <title>Program Hub 4.0</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <div class="noise"></div>
-  <div class="aurora aurora-1"></div>
-  <div class="aurora aurora-2"></div>
-  <div class="aurora aurora-3"></div>
+    <!-- BACKGROUND -->
+    <div class="noise"></div>
+    <div class="aurora aurora-1"></div>
+    <div class="aurora aurora-2"></div>
+    <div class="aurora aurora-3"></div>
 
-  <header class="topbar">
-    <a class="brand" href="#home">
-      <div class="brand-mark">⚡</div>
-      <div>
-        <strong>PROGRAM HUB</strong>
-        <span data-i18n="brandSub">Windows Software</span>
-      </div>
-    </a>
 
-    <nav class="nav">
-      <a href="#home" data-i18n="home">Головна</a>
-      <a href="#apps" data-i18n="apps">Програми</a>
-      <a href="#why" data-i18n="why">Переваги</a>
-      <a href="#faq">FAQ</a>
-    </nav>
+    <!-- HEADER -->
+    <header class="topbar">
 
-    <div class="top-actions">
-      <select id="languageSelect" class="language-select">
-        <option value="uk">🇺🇦 UA</option>
-        <option value="en">🇬🇧 EN</option>
-        <option value="pl">🇵🇱 PL</option>
-        <option value="de">🇩🇪 DE</option>
-        <option value="es">🇪🇸 ES</option>
-      </select>
-      <a class="ghost-btn" href="#apps" data-i18n="download">Завантажити</a>
-    </div>
-  </header>
+        <a class="brand" href="#home">
 
-  <main>
-    <section id="home" class="hero reveal">
-      <div class="hero-copy">
-        <div class="eyebrow">● PROGRAM HUB 4.0</div>
-
-        <h1>
-          <span data-i18n="hero1">Твої Windows-програми.</span>
-          <span class="gradient-title" data-i18n="hero2">В одному крутому хабі.</span>
-        </h1>
-
-        <p data-i18n="heroText">
-          Оптимізація Windows, очищення та керування комп'ютерним сервісом —
-          три готові програми в одному сучасному Download Center.
-        </p>
-
-        <div class="hero-actions">
-          <a class="primary-btn" href="#apps">
-            <span>🚀</span>
-            <span data-i18n="openApps">Відкрити програми</span>
-          </a>
-          <a class="secondary-btn" href="#why" data-i18n="learnMore">Дізнатися більше</a>
-        </div>
-
-        <div class="hero-meta">
-          <div><strong>3</strong><span data-i18n="programsCount">програми</span></div>
-          <div><strong>5</strong><span data-i18n="langsCount">мов</span></div>
-          <div><strong>Windows</strong><span>10 / 11</span></div>
-        </div>
-      </div>
-
-      <div class="hero-stage">
-        <div class="orbital-card main-card">
-          <div class="app-badge">NEW UI</div>
-          <div class="app-icon xl">🛠️</div>
-          <h3>PC Service Manager</h3>
-          <p>3.4.3 PRO</p>
-          <div class="mini-pills">
-            <span>5 Languages</span>
-            <span>5 Currencies</span>
-          </div>
-        </div>
-
-        <div class="orbital-card small-card card-left">
-          <div class="app-icon">🚀</div>
-          <strong>Windows Optimizer</strong>
-          <span>Ultra 6.2.1</span>
-        </div>
-
-        <div class="orbital-card small-card card-right">
-          <div class="app-icon">🧹</div>
-          <strong>Win Cleaner</strong>
-          <span>Fast Cleanup</span>
-        </div>
-
-        <div class="glow-ring"></div>
-      </div>
-    </section>
-
-    <section class="ticker">
-      <div class="ticker-track">
-        <span>⚡ WINDOWS OPTIMIZER</span>
-        <span>🧹 WIN CLEANER</span>
-        <span>🛠️ PC SERVICE MANAGER</span>
-        <span>🌍 5 LANGUAGES</span>
-        <span>💱 5 CURRENCIES</span>
-        <span>⚡ WINDOWS OPTIMIZER</span>
-        <span>🧹 WIN CLEANER</span>
-        <span>🛠️ PC SERVICE MANAGER</span>
-      </div>
-    </section>
-
-    <section id="apps" class="section reveal">
-      <div class="section-head">
-        <div>
-          <span class="eyebrow" data-i18n="downloadCenter">DOWNLOAD CENTER</span>
-          <h2 data-i18n="chooseApp">Обери свою програму</h2>
-        </div>
-        <p data-i18n="appsIntro">Три різні інструменти для різних задач Windows.</p>
-      </div>
-
-      <div class="app-grid">
-
-        <article class="app-card optimizer-card">
-          <div class="card-glow"></div>
-          <div class="card-header">
-            <div class="app-icon">🚀</div>
-            <div class="badges">
-              <span>ULTRA</span>
-              <span>6.2.1</span>
+            <div class="brand-mark">
+                ⚡
             </div>
-          </div>
 
-          <h3>Windows Optimizer Ultra</h3>
-          <p data-i18n="optimizerText">Оптимізація, очищення, Repair Center, моніторинг, Ultimate Performance та системні інструменти.</p>
+            <div>
+                <strong>PROGRAM HUB</strong>
 
-          <div class="feature-pills">
-            <span>⚡ Optimization</span>
-            <span>🧹 Cleaning</span>
-            <span>🎮 Game Mode</span>
-            <span>📊 Monitoring</span>
-          </div>
-
-          <div class="card-footer">
-            <span>Windows 10 / 11</span>
-            <a href="Windows_Optimizer_Ultra_6_2_1.exe" download class="download-btn">
-              <span>⬇</span>
-              <span data-i18n="downloadExe">Завантажити EXE</span>
-            </a>
-          </div>
-        </article>
-
-        <article class="app-card cleaner-card">
-          <div class="card-glow"></div>
-          <div class="card-header">
-            <div class="app-icon">🧹</div>
-            <div class="badges">
-              <span>FAST</span>
-              <span>CLEANER</span>
+                <span data-i18n="brandSub">
+                    Windows Software
+                </span>
             </div>
-          </div>
 
-          <h3>Win Cleaner</h3>
-          <p data-i18n="cleanerText">Легкий інструмент для швидкого очищення тимчасових файлів, кешу та непотрібних даних.</p>
+        </a>
 
-          <div class="feature-pills">
-            <span>🗑️ TEMP</span>
-            <span>💨 Cache</span>
-            <span>💾 Cleanup</span>
-            <span>⚡ Quick</span>
-          </div>
 
-          <div class="card-footer">
-            <span>Windows 10 / 11</span>
-            <a href="win_cleaner.exe" download class="download-btn">
-              <span>⬇</span>
-              <span data-i18n="downloadExe">Завантажити EXE</span>
+        <nav class="nav">
+
+            <a href="#home" data-i18n="home">
+                Головна
             </a>
-          </div>
-        </article>
 
-        <article class="app-card service-card featured">
-          <div class="featured-ribbon">NEW • PRO</div>
-          <div class="card-glow"></div>
-
-          <div class="card-header">
-            <div class="app-icon">🛠️</div>
-            <div class="badges">
-              <span>PRO</span>
-              <span>3.4.3</span>
-            </div>
-          </div>
-
-          <h3>PC Service Manager</h3>
-          <p data-i18n="serviceText">Клієнти, ремонти, фінанси, квитанції, резервні копії, 5 мов і 5 валют.</p>
-
-          <div class="feature-pills">
-            <span>👤 Clients</span>
-            <span>🧾 Orders</span>
-            <span>💰 Finance</span>
-            <span>📄 Receipts</span>
-            <span>🌍 5 Languages</span>
-            <span>💱 5 Currencies</span>
-          </div>
-
-          <div class="card-footer">
-            <span>PRO 3.4.3</span>
-            <a href="PC_Service_Manager_3.4.3_PRO.exe" download class="download-btn">
-              <span>⬇</span>
-              <span data-i18n="downloadExe">Завантажити EXE</span>
-            </a>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <section id="why" class="section reveal">
-      <div class="section-head centered">
-        <div>
-          <span class="eyebrow" data-i18n="why">ПЕРЕВАГИ</span>
-          <h2 data-i18n="whyTitle">Чому новий Program Hub?</h2>
-        </div>
-      </div>
-
-      <div class="why-grid">
-        <article>
-          <div class="why-icon">✨</div>
-          <h3 data-i18n="w1">Новий дизайн</h3>
-          <p data-i18n="w1t">Сучасний glass/neon стиль, анімації та адаптація під телефон.</p>
-        </article>
-
-        <article>
-          <div class="why-icon">⚡</div>
-          <h3 data-i18n="w2">Швидкий Download Center</h3>
-          <p data-i18n="w2t">Кожна програма має окрему картку та пряме завантаження.</p>
-        </article>
-
-        <article>
-          <div class="why-icon">🌍</div>
-          <h3 data-i18n="w3">5 мов</h3>
-          <p data-i18n="w3t">Українська, English, Polski, Deutsch та Español.</p>
-        </article>
-
-        <article>
-          <div class="why-icon">📱</div>
-          <h3 data-i18n="w4">Мобільний дизайн</h3>
-          <p data-i18n="w4t">Сайт красиво виглядає на ПК, планшеті та телефоні.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="faq" class="section reveal">
-      <div class="section-head">
-        <div>
-          <span class="eyebrow">FAQ</span>
-          <h2 data-i18n="faqTitle">Часті запитання</h2>
-        </div>
-      </div>
-
-      <div class="faq-list">
-        <details>
-          <summary data-i18n="q1">Де лежать EXE-файли?</summary>
-          <p data-i18n="a1">Поруч із index.html у корені GitHub Pages.</p>
-        </details>
-
-        <details>
-          <summary data-i18n="q2">Чому файл не завантажується?</summary>
-          <p data-i18n="a2">Перевір точну назву файла в GitHub і значення href у кнопці.</p>
-        </details>
-
-        <details>
-          <summary data-i18n="q3">Які системи підтримуються?</summary>
-          <p data-i18n="a3">Сайт орієнтований на Windows 10 та Windows 11.</p>
-        </details>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="brand">
-      <div class="brand-mark">⚡</div>
-      <div>
-        <strong>PROGRAM HUB</strong>
-        <span>Design 4.0</span>
-      </div>
-    </div>
-
-    <p>© 2026 Program Hub</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+            <a href="#apps" data-i18n="apps">
                 Програми
             </a>
 
-            <a href="#features" data-i18n="features">
-                Можливості
+            <a href="#why" data-i18n="why">
+                Переваги
             </a>
 
             <a href="#faq">
@@ -310,7 +65,7 @@
         </nav>
 
 
-        <div class="header-actions">
+        <div class="top-actions">
 
             <select
                 id="languageSelect"
@@ -325,8 +80,8 @@
             </select>
 
             <a
-                class="btn small"
-                href="#programs"
+                class="ghost-btn"
+                href="#apps"
                 data-i18n="download"
             >
                 Завантажити
@@ -337,73 +92,86 @@
     </header>
 
 
-    <!-- =========================
-         MAIN
-    ========================== -->
     <main>
 
+        <!-- HERO -->
+        <section id="home" class="hero reveal">
 
-        <!-- =========================
-             HERO
-        ========================== -->
-        <section id="home" class="hero">
+            <div class="hero-copy">
 
-            <div class="hero-content">
-
-                <div class="hero-badge">
-                    ⚡ WINDOWS SOFTWARE
+                <div class="eyebrow">
+                    ● PROGRAM HUB 4.0
                 </div>
 
+
                 <h1>
-                    PROGRAM
-                    <span>HUB</span>
+
+                    <span data-i18n="hero1">
+                        Твої Windows-програми.
+                    </span>
+
+                    <span
+                        class="gradient-title"
+                        data-i18n="hero2"
+                    >
+                        В одному крутому хабі.
+                    </span>
+
                 </h1>
 
+
                 <p data-i18n="heroText">
-                    Корисні програми для оптимізації,
-                    очищення Windows та керування
-                    комп'ютерним сервісом.
+                    Оптимізація Windows, очищення та керування
+                    комп'ютерним сервісом — три готові програми
+                    в одному сучасному Download Center.
                 </p>
 
 
-                <div class="hero-buttons">
+                <div class="hero-actions">
 
                     <a
-                        href="#programs"
-                        class="btn primary large"
-                        data-i18n="viewPrograms"
+                        class="primary-btn"
+                        href="#apps"
                     >
-                        🚀 Переглянути програми
+                        🚀
+                        <span data-i18n="openApps">
+                            Відкрити програми
+                        </span>
                     </a>
 
+
                     <a
-                        href="#features"
-                        class="btn secondary large"
+                        class="secondary-btn"
+                        href="#why"
                         data-i18n="learnMore"
                     >
-                        Детальніше
+                        Дізнатися більше
                     </a>
 
                 </div>
 
 
-                <div class="hero-stats">
+                <div class="hero-meta">
 
-                    <div class="hero-stat">
+                    <div>
                         <strong>3</strong>
-                        <span data-i18n="availablePrograms">
+
+                        <span data-i18n="programsCount">
                             програми
                         </span>
                     </div>
 
-                    <div class="hero-stat">
+
+                    <div>
                         <strong>5</strong>
-                        <span data-i18n="languages">
+
+                        <span data-i18n="langsCount">
                             мов
                         </span>
                     </div>
 
-                    <div class="hero-stat">
+
+                    <div>
                         <strong>Windows</strong>
                         <span>10 / 11</span>
                     </div>
@@ -413,132 +181,160 @@
             </div>
 
 
-            <div class="hero-visual">
+            <!-- HERO VISUAL -->
+            <div class="hero-stage">
 
-                <div class="hero-window">
+                <div class="orbital-card main-card">
 
-                    <div class="window-top">
+                    <div class="app-badge">
+                        NEW UI
+                    </div>
 
-                        <div class="window-dots">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
+                    <div class="app-icon xl">
+                        🛠️
+                    </div>
+
+                    <h3>
+                        PC Service Manager
+                    </h3>
+
+                    <p>
+                        3.4.3 PRO
+                    </p>
+
+
+                    <div class="mini-pills">
 
                         <span>
-                            Program Hub
+                            5 Languages
+                        </span>
+
+                        <span>
+                            5 Currencies
                         </span>
 
                     </div>
 
+                </div>
 
-                    <div class="window-body">
 
-                        <div class="window-app">
-                            <span>🚀</span>
-                            Windows Optimizer Ultra
-                        </div>
+                <div class="orbital-card small-card card-left">
 
-                        <div class="window-app">
-                            <span>🧹</span>
-                            Win Cleaner
-                        </div>
-
-                        <div class="window-app active">
-                            <span>🛠️</span>
-                            PC Service Manager
-                        </div>
-
+                    <div class="app-icon">
+                        🚀
                     </div>
 
+                    <strong>
+                        Windows Optimizer
+                    </strong>
+
+                    <span>
+                        Ultra 6.2.1
+                    </span>
+
                 </div>
+
+
+                <div class="orbital-card small-card card-right">
+
+                    <div class="app-icon">
+                        🧹
+                    </div>
+
+                    <strong>
+                        Win Cleaner
+                    </strong>
+
+                    <span>
+                        Fast Cleanup
+                    </span>
+
+                </div>
+
+
+                <div class="glow-ring"></div>
 
             </div>
 
         </section>
 
 
-        <!-- =========================
-             PROGRAMS
-        ========================== -->
-        <section id="programs" class="section">
+        <!-- TICKER -->
+        <section class="ticker">
 
-            <div class="section-heading">
+            <div class="ticker-track">
 
-                <span class="section-tag">
-                    DOWNLOAD CENTER
-                </span>
+                <span>⚡ WINDOWS OPTIMIZER</span>
+                <span>🧹 WIN CLEANER</span>
+                <span>🛠️ PC SERVICE MANAGER</span>
+                <span>🌍 5 LANGUAGES</span>
+                <span>💱 5 CURRENCIES</span>
 
-                <h2 data-i18n="ourPrograms">
-                    Наші програми
-                </h2>
+                <span>⚡ WINDOWS OPTIMIZER</span>
+                <span>🧹 WIN CLEANER</span>
+                <span>🛠️ PC SERVICE MANAGER</span>
 
-                <p data-i18n="programsText">
-                    Обери потрібну програму та завантаж
-                    її для Windows.
+            </div>
+
+        </section>
+
+
+        <!-- PROGRAMS -->
+        <section id="apps" class="section reveal">
+
+            <div class="section-head">
+
+                <div>
+
+                    <span
+                        class="eyebrow"
+                        data-i18n="downloadCenter"
+                    >
+                        DOWNLOAD CENTER
+                    </span>
+
+                    <h2 data-i18n="chooseApp">
+                        Обери свою програму
+                    </h2>
+
+                </div>
+
+
+                <p data-i18n="appsIntro">
+                    Три різні інструменти
+                    для різних задач Windows.
                 </p>
 
             </div>
 
 
-            <div class="downloads-grid">
+            <div class="app-grid">
 
 
-                <!-- =========================
-                     WINDOWS OPTIMIZER
-                ========================== -->
-                <article class="download-card">
+                <!-- ========================= -->
+                <!-- WINDOWS OPTIMIZER -->
+                <!-- ========================= -->
 
-                    <div class="card-top">
+                <article class="app-card optimizer-card">
 
-                        <div class="appicon">
+                    <div class="card-glow"></div>
+
+
+                    <div class="card-header">
+
+                        <div class="app-icon">
                             🚀
                         </div>
 
-                        <div class="card-tags">
 
-                            <span class="tag">
-                                WINDOWS
-                            </span>
+                        <div class="badges">
 
-                            <span class="tag green">
+                            <span>
                                 ULTRA
                             </span>
 
-                        </div>
-
-                    </div>
-
-
-                    <div class="app-info">
-
-                        <h3>
-                            Windows Optimizer Ultra
-                        </h3>
-
-                        <p data-i18n="optimizerDescription">
-                            Потужний набір інструментів для
-                            очищення, оптимізації та керування
-                            Windows.
-                        </p>
-
-
-                        <div class="app-features">
-
                             <span>
-                                ⚡ Оптимізація
-                            </span>
-
-                            <span>
-                                🧹 Очищення
-                            </span>
-
-                            <span>
-                                🎮 Game Mode
-                            </span>
-
-                            <span>
-                                📊 Моніторинг
+                                6.2.1
                             </span>
 
                         </div>
@@ -546,24 +342,57 @@
                     </div>
 
 
-                    <div class="card-bottom">
+                    <h3>
+                        Windows Optimizer Ultra
+                    </h3>
 
-                        <div class="version">
+
+                    <p data-i18n="optimizerText">
+                        Оптимізація, очищення,
+                        Repair Center, моніторинг,
+                        Ultimate Performance
+                        та системні інструменти.
+                    </p>
+
+
+                    <div class="feature-pills">
+
+                        <span>
+                            ⚡ Optimization
+                        </span>
+
+                        <span>
+                            🧹 Cleaning
+                        </span>
+
+                        <span>
+                            🎮 Game Mode
+                        </span>
+
+                        <span>
+                            📊 Monitoring
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-footer">
+
+                        <span>
                             Windows 10 / 11
-                        </div>
+                        </span>
 
-                        <!--
-                            ВАЖЛИВО:
-                            якщо твій EXE має іншу назву,
-                            зміни href нижче.
-                        -->
+
                         <a
-                            class="btn primary"
                             href="Windows_Optimizer_Ultra_6_2_1.exe"
+                            class="download-btn"
                             download
-                            data-i18n="downloadButton"
                         >
-                            ⬇ Завантажити
+                            ⬇
+
+                            <span data-i18n="downloadExe">
+                                Завантажити EXE
+                            </span>
                         </a>
 
                     </div>
@@ -571,24 +400,29 @@
                 </article>
 
 
-                <!-- =========================
-                     WIN CLEANER
-                ========================== -->
-                <article class="download-card">
+                <!-- ========================= -->
+                <!-- WIN CLEANER -->
+                <!-- ========================= -->
 
-                    <div class="card-top">
+                <article class="app-card cleaner-card">
 
-                        <div class="appicon">
+                    <div class="card-glow"></div>
+
+
+                    <div class="card-header">
+
+                        <div class="app-icon">
                             🧹
                         </div>
 
-                        <div class="card-tags">
 
-                            <span class="tag">
-                                WINDOWS
+                        <div class="badges">
+
+                            <span>
+                                FAST
                             </span>
 
-                            <span class="tag blue">
+                            <span>
                                 CLEANER
                             </span>
 
@@ -597,56 +431,56 @@
                     </div>
 
 
-                    <div class="app-info">
-
-                        <h3>
-                            Win Cleaner
-                        </h3>
-
-                        <p data-i18n="cleanerDescription">
-                            Простий інструмент для очищення
-                            тимчасових файлів та непотрібних
-                            даних Windows.
-                        </p>
+                    <h3>
+                        Win Cleaner
+                    </h3>
 
 
-                        <div class="app-features">
+                    <p data-i18n="cleanerText">
+                        Легкий інструмент для
+                        швидкого очищення тимчасових
+                        файлів, кешу та непотрібних даних.
+                    </p>
 
-                            <span>
-                                🗑️ TEMP
-                            </span>
 
-                            <span>
-                                🧹 Cache
-                            </span>
+                    <div class="feature-pills">
 
-                            <span>
-                                💾 Cleanup
-                            </span>
+                        <span>
+                            🗑️ TEMP
+                        </span>
 
-                            <span>
-                                ⚡ Fast
-                            </span>
+                        <span>
+                            💨 Cache
+                        </span>
 
-                        </div>
+                        <span>
+                            💾 Cleanup
+                        </span>
+
+                        <span>
+                            ⚡ Quick
+                        </span>
 
                     </div>
 
 
-                    <div class="card-bottom">
+                    <div class="card-footer">
 
-                        <div class="version">
+                        <span>
                             Windows 10 / 11
-                        </div>
+                        </span>
 
-                        <!-- Зміни назву, якщо EXE називається інакше -->
+
                         <a
-                            class="btn primary"
                             href="win_cleaner.exe"
+                            class="download-btn"
                             download
-                            data-i18n="downloadButton"
                         >
-                            ⬇ Завантажити
+                            ⬇
+
+                            <span data-i18n="downloadExe">
+                                Завантажити EXE
+                            </span>
                         </a>
 
                     </div>
@@ -654,29 +488,33 @@
                 </article>
 
 
-                <!-- =========================
-                     PC SERVICE MANAGER
-                ========================== -->
-                <article class="download-card featured-card">
+                <!-- ========================= -->
+                <!-- PC SERVICE MANAGER -->
+                <!-- ========================= -->
 
-                    <div class="featured-label">
-                        ⭐ NEW
+                <article class="app-card service-card featured">
+
+                    <div class="featured-ribbon">
+                        NEW • PRO
                     </div>
 
+                    <div class="card-glow"></div>
 
-                    <div class="card-top">
 
-                        <div class="appicon">
+                    <div class="card-header">
+
+                        <div class="app-icon">
                             🛠️
                         </div>
 
-                        <div class="card-tags">
 
-                            <span class="tag">
+                        <div class="badges">
+
+                            <span>
                                 PRO
                             </span>
 
-                            <span class="tag purple">
+                            <span>
                                 3.4.3
                             </span>
 
@@ -685,72 +523,177 @@
                     </div>
 
 
-                    <div class="app-info">
-
-                        <h3>
-                            PC Service Manager
-                            3.4.3 PRO
-                        </h3>
-
-                        <p data-i18n="serviceDescription">
-                            Програма для керування
-                            комп'ютерним сервісом:
-                            клієнти, ремонти, фінанси,
-                            квитанції та резервні копії.
-                        </p>
+                    <h3>
+                        PC Service Manager
+                    </h3>
 
 
-                        <div class="app-features">
+                    <p data-i18n="serviceText">
+                        Клієнти, ремонти, фінанси,
+                        квитанції, резервні копії,
+                        5 мов і 5 валют.
+                    </p>
 
-                            <span data-i18n="clients">
-                                👤 Клієнти
-                            </span>
 
-                            <span data-i18n="orders">
-                                🧾 Замовлення
-                            </span>
+                    <div class="feature-pills">
 
-                            <span data-i18n="finance">
-                                💰 Фінанси
-                            </span>
+                        <span>
+                            👤 Clients
+                        </span>
 
-                            <span data-i18n="receipts">
-                                📄 Квитанції
-                            </span>
+                        <span>
+                            🧾 Orders
+                        </span>
 
-                            <span data-i18n="fiveLanguages">
-                                🌍 5 мов
-                            </span>
+                        <span>
+                            💰 Finance
+                        </span>
 
-                            <span data-i18n="fiveCurrencies">
-                                💱 5 валют
-                            </span>
+                        <span>
+                            📄 Receipts
+                        </span>
 
-                        </div>
+                        <span>
+                            🌍 5 Languages
+                        </span>
+
+                        <span>
+                            💱 5 Currencies
+                        </span>
 
                     </div>
 
 
-                    <div class="card-bottom">
+                    <div class="card-footer">
 
-                        <div class="version">
-                            v3.4.3 PRO
-                        </div>
+                        <span>
+                            PRO 3.4.3
+                        </span>
+
 
                         <!--
-                            EXE у GitHub повинен називатися
-                            ТОЧНО так само.
+                        ВАЖЛИВО!
+
+                        У GitHub повинен лежати файл:
+
+                        PC_Service_Manager_3.4.3_PRO.exe
                         -->
+
                         <a
-                            class="btn primary"
-                            href="PC_Service_Manager_3.4.2_PRO.exe"
-                            download
-                            data-i18n="downloadButton"
+                            href="./PC_Service_Manager_3.4.3_PRO.exe"
+                            class="download-btn"
+                            download="PC_Service_Manager_3.4.3_PRO.exe"
                         >
-                            ⬇ Завантажити
+                            ⬇
+
+                            <span data-i18n="downloadExe">
+                                Завантажити EXE
+                            </span>
                         </a>
 
                     </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- WHY -->
+        <section id="why" class="section reveal">
+
+            <div class="section-head centered">
+
+                <div>
+
+                    <span
+                        class="eyebrow"
+                        data-i18n="why"
+                    >
+                        ПЕРЕВАГИ
+                    </span>
+
+                    <h2 data-i18n="whyTitle">
+                        Чому новий Program Hub?
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="why-grid">
+
+
+                <article>
+
+                    <div class="why-icon">
+                        ✨
+                    </div>
+
+                    <h3 data-i18n="w1">
+                        Новий дизайн
+                    </h3>
+
+                    <p data-i18n="w1t">
+                        Сучасний glass/neon стиль,
+                        анімації та адаптація під телефон.
+                    </p>
+
+                </article>
+
+
+                <article>
+
+                    <div class="why-icon">
+                        ⚡
+                    </div>
+
+                    <h3 data-i18n="w2">
+                        Швидкий Download Center
+                    </h3>
+
+                    <p data-i18n="w2t">
+                        Кожна програма має окрему
+                        картку та пряме завантаження.
+                    </p>
+
+                </article>
+
+
+                <article>
+
+                    <div class="why-icon">
+                        🌍
+                    </div>
+
+                    <h3 data-i18n="w3">
+                        5 мов
+                    </h3>
+
+                    <p data-i18n="w3t">
+                        Українська, English,
+                        Polski, Deutsch та Español.
+                    </p>
+
+                </article>
+
+
+                <article>
+
+                    <div class="why-icon">
+                        📱
+                    </div>
+
+                    <h3 data-i18n="w4">
+                        Мобільний дизайн
+                    </h3>
+
+                    <p data-i18n="w4t">
+                        Сайт красиво виглядає
+                        на ПК, планшеті та телефоні.
+                    </p>
 
                 </article>
 
@@ -760,230 +703,22 @@
         </section>
 
 
-        <!-- =========================
-             FEATURES
-        ========================== -->
-        <section id="features" class="section features-section">
+        <!-- FAQ -->
+        <section id="faq" class="section reveal">
 
-            <div class="section-heading">
-
-                <span class="section-tag">
-                    FEATURES
-                </span>
-
-                <h2 data-i18n="whyProgramHub">
-                    Чому Program Hub?
-                </h2>
-
-            </div>
-
-
-            <div class="features-grid">
-
-
-                <div class="feature-card">
-
-                    <div class="feature-icon">
-                        ⚡
-                    </div>
-
-                    <h3 data-i18n="fastTitle">
-                        Швидко
-                    </h3>
-
-                    <p data-i18n="fastText">
-                        Завантажуй потрібну програму
-                        без складних сторінок.
-                    </p>
-
-                </div>
-
-
-                <div class="feature-card">
-
-                    <div class="feature-icon">
-                        🖥️
-                    </div>
-
-                    <h3>
-                        Windows 10 / 11
-                    </h3>
-
-                    <p data-i18n="windowsText">
-                        Програми створені для сучасних
-                        версій Windows.
-                    </p>
-
-                </div>
-
-
-                <div class="feature-card">
-
-                    <div class="feature-icon">
-                        🌍
-                    </div>
-
-                    <h3 data-i18n="multiLanguageTitle">
-                        Багатомовність
-                    </h3>
-
-                    <p data-i18n="multiLanguageText">
-                        Сайт підтримує українську,
-                        англійську, польську,
-                        німецьку та іспанську.
-                    </p>
-
-                </div>
-
-
-                <div class="feature-card">
-
-                    <div class="feature-icon">
-                        🔄
-                    </div>
-
-                    <h3 data-i18n="updatesTitle">
-                        Оновлення
-                    </h3>
-
-                    <p data-i18n="updatesText">
-                        Нові версії програм можна
-                        додавати прямо на цей сайт.
-                    </p>
-
-                </div>
-
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             PC SERVICE MANAGER
-        ========================== -->
-        <section class="section service-section">
-
-            <div class="service-box">
+            <div class="section-head">
 
                 <div>
 
-                    <span class="section-tag">
-                        PC SERVICE MANAGER
+                    <span class="eyebrow">
+                        FAQ
                     </span>
 
-                    <h2>
-                        PC Service Manager
-                        <span>3.4.3 PRO</span>
+                    <h2 data-i18n="faqTitle">
+                        Часті запитання
                     </h2>
 
-                    <p data-i18n="serviceBigText">
-                        Керуй клієнтами, ремонтами,
-                        замовленнями та фінансами
-                        в одному застосунку.
-                    </p>
-
-
-                    <div class="service-list">
-
-                        <div data-i18n="serviceFeature1">
-                            ✓ База клієнтів
-                        </div>
-
-                        <div data-i18n="serviceFeature2">
-                            ✓ Облік ремонтів
-                        </div>
-
-                        <div data-i18n="serviceFeature3">
-                            ✓ Доходи та витрати
-                        </div>
-
-                        <div data-i18n="serviceFeature4">
-                            ✓ PDF-квитанції
-                        </div>
-
-                        <div data-i18n="serviceFeature5">
-                            ✓ 5 мов
-                        </div>
-
-                        <div data-i18n="serviceFeature6">
-                            ✓ UAH / USD / EUR / PLN / GBP
-                        </div>
-
-                    </div>
-
-
-                    <a
-                        class="btn primary large"
-                        href="PC_Service_Manager_3.4.3_PRO.exe"
-                        download
-                        data-i18n="downloadService"
-                    >
-                        🛠️ Завантажити PC Service Manager
-                    </a>
-
                 </div>
-
-
-                <div class="service-preview">
-
-                    <div class="preview-top">
-                        PC Service Manager
-                    </div>
-
-                    <div class="preview-stats">
-
-                        <div>
-                            <span>👤</span>
-                            <strong>Clients</strong>
-                        </div>
-
-                        <div>
-                            <span>🧾</span>
-                            <strong>Orders</strong>
-                        </div>
-
-                        <div>
-                            <span>💰</span>
-                            <strong>Finance</strong>
-                        </div>
-
-                    </div>
-
-
-                    <div class="preview-line">
-                        <span></span>
-                    </div>
-
-                    <div class="preview-line small">
-                        <span></span>
-                    </div>
-
-                    <div class="preview-line">
-                        <span></span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             FAQ
-        ========================== -->
-        <section id="faq" class="section faq-section">
-
-            <div class="section-heading">
-
-                <span class="section-tag">
-                    FAQ
-                </span>
-
-                <h2 data-i18n="faqTitle">
-                    Часті запитання
-                </h2>
 
             </div>
 
@@ -993,13 +728,13 @@
 
                 <details>
 
-                    <summary data-i18n="faq1Title">
-                        На яких системах працюють програми?
+                    <summary data-i18n="q1">
+                        Де лежать EXE-файли?
                     </summary>
 
-                    <p data-i18n="faq1Text">
-                        Програми розраховані на Windows 10
-                        та Windows 11.
+                    <p data-i18n="a1">
+                        Поруч із index.html
+                        у корені GitHub Pages.
                     </p>
 
                 </details>
@@ -1007,13 +742,14 @@
 
                 <details>
 
-                    <summary data-i18n="faq2Title">
-                        Де знаходиться завантажений файл?
+                    <summary data-i18n="q2">
+                        Чому файл не завантажується?
                     </summary>
 
-                    <p data-i18n="faq2Text">
-                        Зазвичай браузер зберігає файл
-                        у папці «Завантаження».
+                    <p data-i18n="a2">
+                        Перевір точну назву файла
+                        в GitHub і значення href
+                        у кнопці.
                     </p>
 
                 </details>
@@ -1021,26 +757,12 @@
 
                 <details>
 
-                    <summary data-i18n="faq3Title">
-                        PC Service Manager зберігає клієнтів?
+                    <summary data-i18n="q3">
+                        Які системи підтримуються?
                     </summary>
 
-                    <p data-i18n="faq3Text">
-                        Так. Дані програми зберігаються
-                        локально у базі SQLite на комп'ютері.
-                    </p>
-
-                </details>
-
-
-                <details>
-
-                    <summary data-i18n="faq4Title">
-                        Які валюти підтримує PC Service Manager?
-                    </summary>
-
-                    <p data-i18n="faq4Text">
-                        UAH, USD, EUR, PLN та GBP.
+                    <p data-i18n="a3">
+                        Windows 10 та Windows 11.
                     </p>
 
                 </details>
@@ -1050,55 +772,40 @@
 
         </section>
 
-
     </main>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
-    <footer class="footer">
+    <!-- FOOTER -->
+    <footer>
 
-        <div>
+        <div class="brand">
 
-            <div class="footer-logo">
-                🚀 PROGRAM HUB
+            <div class="brand-mark">
+                ⚡
             </div>
 
-            <p data-i18n="footerText">
-                Програми та інструменти для Windows.
-            </p>
+            <div>
+
+                <strong>
+                    PROGRAM HUB
+                </strong>
+
+                <span>
+                    Design 4.0
+                </span>
+
+            </div>
 
         </div>
 
 
-        <div class="footer-links">
-
-            <a href="#home" data-i18n="home">
-                Головна
-            </a>
-
-            <a href="#programs" data-i18n="programs">
-                Програми
-            </a>
-
-            <a href="#faq">
-                FAQ
-            </a>
-
-        </div>
-
-
-        <div class="copyright">
-            © <span id="year"></span> Program Hub
-        </div>
+        <p>
+            © 2026 Program Hub
+        </p>
 
     </footer>
 
 
-    <!-- =========================
-         JAVASCRIPT
-    ========================== -->
     <script src="script.js"></script>
 
 </body>
